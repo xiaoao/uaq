@@ -1,0 +1,999 @@
+onInputData({
+    "log": {
+        "version": "0.1",
+        "creator": {
+            "name": "UAQ easy!",
+            "version": "1.9.2"
+        },
+        "pages": [
+            {
+                "startedDateTime": "2013-11-15T09:08:30.805Z",
+                "id": "http://www.baidu.com",
+                "title": "百度一下，你就知道",
+                "pageTimings": {
+                    "onLoad": 50
+                }
+            }
+        ],
+        "entries": [
+            {
+                "startedDateTime": "2013-11-15T09:08:30.792Z",
+                "time": 22,
+                "request": {
+                    "method": "GET",
+                    "url": "http://www.baidu.com/",
+                    "httpVersion": "HTTP/1.1",
+                    "cookies": [],
+                    "headers": [
+                        {
+                            "name": "User-Agent",
+                            "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.2 Safari/534.34"
+                        },
+                        {
+                            "name": "Accept",
+                            "value": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+                        }
+                    ],
+                    "queryString": [],
+                    "headersSize": -1,
+                    "bodySize": -1
+                },
+                "response": {
+                    "status": 200,
+                    "statusText": "OK",
+                    "httpVersion": "HTTP/1.1",
+                    "cookies": [],
+                    "headers": [
+                        {
+                            "name": "Date",
+                            "value": "Fri, 15 Nov 2013 09:08:30 GMT"
+                        },
+                        {
+                            "name": "Content-Type",
+                            "value": "text/html;charset=utf-8"
+                        },
+                        {
+                            "name": "Transfer-Encoding",
+                            "value": "chunked"
+                        },
+                        {
+                            "name": "Connection",
+                            "value": "Keep-Alive"
+                        },
+                        {
+                            "name": "Vary",
+                            "value": "Accept-Encoding"
+                        },
+                        {
+                            "name": "Set-Cookie",
+                            "value": "BAIDUID=517A90FD6C053F212D116AEEAF33D861:FG=1; expires=Thu, 31-Dec-37 23:55:55 GMT; max-age=2147483647; path=/; domain=.baidu.com\nBDSVRTM=0; path=/\nH_PS_PSSID=4138_3696_1444_3778_3746_3594_3417_3759; path=/; domain=.baidu.com"
+                        },
+                        {
+                            "name": "P3P",
+                            "value": "CP=\" OTI DSP COR IVA OUR IND COM \""
+                        },
+                        {
+                            "name": "Expires",
+                            "value": "Fri, 15 Nov 2013 09:08:00 GMT"
+                        },
+                        {
+                            "name": "Cache-Control",
+                            "value": "private"
+                        },
+                        {
+                            "name": "Server",
+                            "value": "BWS/1.0"
+                        },
+                        {
+                            "name": "BDPAGETYPE",
+                            "value": "1"
+                        },
+                        {
+                            "name": "BDQID",
+                            "value": "0xb9c02df1a0ebfbfb"
+                        },
+                        {
+                            "name": "BDUSERID",
+                            "value": "0"
+                        },
+                        {
+                            "name": "Content-Encoding",
+                            "value": "gzip"
+                        }
+                    ],
+                    "redirectURL": "",
+                    "headersSize": -1,
+                    "bodySize": 11864,
+                    "content": {
+                        "size": 11864,
+                        "mimeType": "text/html;charset=utf-8"
+                    }
+                },
+                "cache": {},
+                "timings": {
+                    "blocked": 0,
+                    "dns": -1,
+                    "connect": -1,
+                    "send": 0,
+                    "wait": 13,
+                    "receive": 9,
+                    "ssl": -1
+                },
+                "pageref": "http://www.baidu.com"
+            },
+            {
+                "startedDateTime": "2013-11-15T09:08:30.809Z",
+                "time": 14,
+                "request": {
+                    "method": "GET",
+                    "url": "http://s1.bdstatic.com/r/www/cache/static/global/img/icons_92966890.png",
+                    "httpVersion": "HTTP/1.1",
+                    "cookies": [],
+                    "headers": [
+                        {
+                            "name": "User-Agent",
+                            "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.2 Safari/534.34"
+                        },
+                        {
+                            "name": "Referer",
+                            "value": "http://www.baidu.com/"
+                        },
+                        {
+                            "name": "Accept",
+                            "value": "*/*"
+                        }
+                    ],
+                    "queryString": [],
+                    "headersSize": -1,
+                    "bodySize": -1
+                },
+                "response": {
+                    "status": 200,
+                    "statusText": "OK",
+                    "httpVersion": "HTTP/1.1",
+                    "cookies": [],
+                    "headers": [
+                        {
+                            "name": "Date",
+                            "value": "Fri, 15 Nov 2013 09:08:30 GMT"
+                        },
+                        {
+                            "name": "Server",
+                            "value": "Apache"
+                        },
+                        {
+                            "name": "P3P",
+                            "value": "CP=\" OTI DSP COR IVA OUR IND COM \""
+                        },
+                        {
+                            "name": "Set-Cookie",
+                            "value": "BAIDUID=75436598AC61D39117A8B5C9B56EF419:FG=1; expires=Sat, 15-Nov-14 09:08:30 GMT; max-age=31536000; path=/; domain=.baidu.com; version=1"
+                        },
+                        {
+                            "name": "Last-Modified",
+                            "value": "Fri, 15 Nov 2013 07:50:51 GMT"
+                        },
+                        {
+                            "name": "ETag",
+                            "value": "\"292e-4eb3275050cc0\""
+                        },
+                        {
+                            "name": "Accept-Ranges",
+                            "value": "bytes"
+                        },
+                        {
+                            "name": "Content-Length",
+                            "value": "10542"
+                        },
+                        {
+                            "name": "Cache-Control",
+                            "value": "max-age=315360000"
+                        },
+                        {
+                            "name": "Expires",
+                            "value": "Mon, 13 Nov 2023 09:08:30 GMT"
+                        },
+                        {
+                            "name": "Connection",
+                            "value": "Keep-Alive"
+                        },
+                        {
+                            "name": "Content-Type",
+                            "value": "image/png"
+                        }
+                    ],
+                    "redirectURL": "",
+                    "headersSize": -1,
+                    "bodySize": 1024,
+                    "content": {
+                        "size": 1024,
+                        "mimeType": "image/png"
+                    }
+                },
+                "cache": {},
+                "timings": {
+                    "blocked": 0,
+                    "dns": -1,
+                    "connect": -1,
+                    "send": 0,
+                    "wait": 9,
+                    "receive": 5,
+                    "ssl": -1
+                },
+                "pageref": "http://www.baidu.com"
+            },
+            {
+                "startedDateTime": "2013-11-15T09:08:30.812Z",
+                "time": 20,
+                "request": {
+                    "method": "GET",
+                    "url": "http://s1.bdstatic.com/r/www/cache/static/global/js/home_f813a739.js",
+                    "httpVersion": "HTTP/1.1",
+                    "cookies": [],
+                    "headers": [
+                        {
+                            "name": "User-Agent",
+                            "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.2 Safari/534.34"
+                        },
+                        {
+                            "name": "Accept",
+                            "value": "*/*"
+                        },
+                        {
+                            "name": "Referer",
+                            "value": "http://www.baidu.com/"
+                        }
+                    ],
+                    "queryString": [],
+                    "headersSize": -1,
+                    "bodySize": -1
+                },
+                "response": {
+                    "status": 200,
+                    "statusText": "OK",
+                    "httpVersion": "HTTP/1.1",
+                    "cookies": [],
+                    "headers": [
+                        {
+                            "name": "Date",
+                            "value": "Fri, 15 Nov 2013 09:08:30 GMT"
+                        },
+                        {
+                            "name": "Server",
+                            "value": "Apache"
+                        },
+                        {
+                            "name": "P3P",
+                            "value": "CP=\" OTI DSP COR IVA OUR IND COM \""
+                        },
+                        {
+                            "name": "Set-Cookie",
+                            "value": "BAIDUID=D88AB1D2169A51AAAEE36E097F5E9E5C:FG=1; expires=Sat, 15-Nov-14 09:08:30 GMT; max-age=31536000; path=/; domain=.baidu.com; version=1"
+                        },
+                        {
+                            "name": "Last-Modified",
+                            "value": "Fri, 15 Nov 2013 07:50:51 GMT"
+                        },
+                        {
+                            "name": "ETag",
+                            "value": "\"7227-4eb3275050cc0\""
+                        },
+                        {
+                            "name": "Accept-Ranges",
+                            "value": "bytes"
+                        },
+                        {
+                            "name": "Cache-Control",
+                            "value": "max-age=315360000"
+                        },
+                        {
+                            "name": "Expires",
+                            "value": "Mon, 13 Nov 2023 09:08:30 GMT"
+                        },
+                        {
+                            "name": "Vary",
+                            "value": "Accept-Encoding,User-Agent"
+                        },
+                        {
+                            "name": "Content-Encoding",
+                            "value": "gzip"
+                        },
+                        {
+                            "name": "Connection",
+                            "value": "Keep-Alive"
+                        },
+                        {
+                            "name": "Content-Type",
+                            "value": "application/javascript"
+                        }
+                    ],
+                    "redirectURL": "",
+                    "headersSize": -1,
+                    "bodySize": 29223,
+                    "content": {
+                        "size": 29223,
+                        "mimeType": "application/javascript"
+                    }
+                },
+                "cache": {},
+                "timings": {
+                    "blocked": 0,
+                    "dns": -1,
+                    "connect": -1,
+                    "send": 0,
+                    "wait": 20,
+                    "receive": 0,
+                    "ssl": -1
+                },
+                "pageref": "http://www.baidu.com"
+            },
+            {
+                "startedDateTime": "2013-11-15T09:08:30.813Z",
+                "time": 27,
+                "request": {
+                    "method": "GET",
+                    "url": "http://s1.bdstatic.com/r/www/cache/static/global/js/tangram-1.3.4c1.0_07038476.js",
+                    "httpVersion": "HTTP/1.1",
+                    "cookies": [],
+                    "headers": [
+                        {
+                            "name": "User-Agent",
+                            "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.2 Safari/534.34"
+                        },
+                        {
+                            "name": "Accept",
+                            "value": "*/*"
+                        },
+                        {
+                            "name": "Referer",
+                            "value": "http://www.baidu.com/"
+                        }
+                    ],
+                    "queryString": [],
+                    "headersSize": -1,
+                    "bodySize": -1
+                },
+                "response": {
+                    "status": 200,
+                    "statusText": "OK",
+                    "httpVersion": "HTTP/1.1",
+                    "cookies": [],
+                    "headers": [
+                        {
+                            "name": "Date",
+                            "value": "Fri, 15 Nov 2013 09:08:30 GMT"
+                        },
+                        {
+                            "name": "Server",
+                            "value": "Apache"
+                        },
+                        {
+                            "name": "P3P",
+                            "value": "CP=\" OTI DSP COR IVA OUR IND COM \""
+                        },
+                        {
+                            "name": "Set-Cookie",
+                            "value": "BAIDUID=C67E82F4AA6707CA8144F1CC38BB797E:FG=1; expires=Sat, 15-Nov-14 09:08:30 GMT; max-age=31536000; path=/; domain=.baidu.com; version=1"
+                        },
+                        {
+                            "name": "Last-Modified",
+                            "value": "Fri, 15 Nov 2013 07:50:51 GMT"
+                        },
+                        {
+                            "name": "ETag",
+                            "value": "\"57ea-4eb3275050cc0\""
+                        },
+                        {
+                            "name": "Accept-Ranges",
+                            "value": "bytes"
+                        },
+                        {
+                            "name": "Cache-Control",
+                            "value": "max-age=315360000"
+                        },
+                        {
+                            "name": "Expires",
+                            "value": "Mon, 13 Nov 2023 09:08:30 GMT"
+                        },
+                        {
+                            "name": "Vary",
+                            "value": "Accept-Encoding,User-Agent"
+                        },
+                        {
+                            "name": "Content-Encoding",
+                            "value": "gzip"
+                        },
+                        {
+                            "name": "Connection",
+                            "value": "Keep-Alive"
+                        },
+                        {
+                            "name": "Content-Type",
+                            "value": "application/javascript"
+                        }
+                    ],
+                    "redirectURL": "",
+                    "headersSize": -1,
+                    "bodySize": 22506,
+                    "content": {
+                        "size": 22506,
+                        "mimeType": "application/javascript"
+                    }
+                },
+                "cache": {},
+                "timings": {
+                    "blocked": 0,
+                    "dns": -1,
+                    "connect": -1,
+                    "send": 0,
+                    "wait": 27,
+                    "receive": 0,
+                    "ssl": -1
+                },
+                "pageref": "http://www.baidu.com"
+            },
+            {
+                "startedDateTime": "2013-11-15T09:08:30.814Z",
+                "time": 11,
+                "request": {
+                    "method": "GET",
+                    "url": "http://s1.bdstatic.com/r/www/cache/static/user/js/u_9b9fc1cd.js",
+                    "httpVersion": "HTTP/1.1",
+                    "cookies": [],
+                    "headers": [
+                        {
+                            "name": "User-Agent",
+                            "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.2 Safari/534.34"
+                        },
+                        {
+                            "name": "Accept",
+                            "value": "*/*"
+                        },
+                        {
+                            "name": "Referer",
+                            "value": "http://www.baidu.com/"
+                        }
+                    ],
+                    "queryString": [],
+                    "headersSize": -1,
+                    "bodySize": -1
+                },
+                "response": {
+                    "status": 200,
+                    "statusText": "OK",
+                    "httpVersion": "HTTP/1.1",
+                    "cookies": [],
+                    "headers": [
+                        {
+                            "name": "Date",
+                            "value": "Fri, 15 Nov 2013 09:08:30 GMT"
+                        },
+                        {
+                            "name": "Server",
+                            "value": "Apache"
+                        },
+                        {
+                            "name": "P3P",
+                            "value": "CP=\" OTI DSP COR IVA OUR IND COM \""
+                        },
+                        {
+                            "name": "Set-Cookie",
+                            "value": "BAIDUID=76E822D8512ABC1822A60647F88C0F16:FG=1; expires=Sat, 15-Nov-14 09:08:30 GMT; max-age=31536000; path=/; domain=.baidu.com; version=1"
+                        },
+                        {
+                            "name": "Last-Modified",
+                            "value": "Fri, 15 Nov 2013 07:50:51 GMT"
+                        },
+                        {
+                            "name": "ETag",
+                            "value": "\"1123-4eb3275050cc0\""
+                        },
+                        {
+                            "name": "Accept-Ranges",
+                            "value": "bytes"
+                        },
+                        {
+                            "name": "Cache-Control",
+                            "value": "max-age=315360000"
+                        },
+                        {
+                            "name": "Expires",
+                            "value": "Mon, 13 Nov 2023 09:08:30 GMT"
+                        },
+                        {
+                            "name": "Vary",
+                            "value": "Accept-Encoding,User-Agent"
+                        },
+                        {
+                            "name": "Content-Encoding",
+                            "value": "gzip"
+                        },
+                        {
+                            "name": "Connection",
+                            "value": "Keep-Alive"
+                        },
+                        {
+                            "name": "Content-Type",
+                            "value": "application/javascript"
+                        }
+                    ],
+                    "redirectURL": "",
+                    "headersSize": -1,
+                    "bodySize": 4387,
+                    "content": {
+                        "size": 4387,
+                        "mimeType": "application/javascript"
+                    }
+                },
+                "cache": {},
+                "timings": {
+                    "blocked": 0,
+                    "dns": -1,
+                    "connect": -1,
+                    "send": 0,
+                    "wait": 11,
+                    "receive": 0,
+                    "ssl": -1
+                },
+                "pageref": "http://www.baidu.com"
+            },
+            {
+                "startedDateTime": "2013-11-15T09:08:30.816Z",
+                "time": 28,
+                "request": {
+                    "method": "GET",
+                    "url": "http://s1.bdstatic.com/r/www/cache/global/img/baiduws.png",
+                    "httpVersion": "HTTP/1.1",
+                    "cookies": [],
+                    "headers": [
+                        {
+                            "name": "User-Agent",
+                            "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.2 Safari/534.34"
+                        },
+                        {
+                            "name": "Referer",
+                            "value": "http://www.baidu.com/"
+                        },
+                        {
+                            "name": "Accept",
+                            "value": "*/*"
+                        }
+                    ],
+                    "queryString": [],
+                    "headersSize": -1,
+                    "bodySize": -1
+                },
+                "response": {
+                    "status": 200,
+                    "statusText": "OK",
+                    "httpVersion": "HTTP/1.1",
+                    "cookies": [],
+                    "headers": [
+                        {
+                            "name": "Date",
+                            "value": "Fri, 15 Nov 2013 09:08:30 GMT"
+                        },
+                        {
+                            "name": "Server",
+                            "value": "Apache"
+                        },
+                        {
+                            "name": "P3P",
+                            "value": "CP=\" OTI DSP COR IVA OUR IND COM \""
+                        },
+                        {
+                            "name": "Set-Cookie",
+                            "value": "BAIDUID=75436598AC61D391B6867339747310E9:FG=1; expires=Sat, 15-Nov-14 09:08:30 GMT; max-age=31536000; path=/; domain=.baidu.com; version=1"
+                        },
+                        {
+                            "name": "Last-Modified",
+                            "value": "Fri, 15 Nov 2013 08:01:21 GMT"
+                        },
+                        {
+                            "name": "ETag",
+                            "value": "\"506-4eb329a921640\""
+                        },
+                        {
+                            "name": "Accept-Ranges",
+                            "value": "bytes"
+                        },
+                        {
+                            "name": "Content-Length",
+                            "value": "1286"
+                        },
+                        {
+                            "name": "Cache-Control",
+                            "value": "max-age=315360000"
+                        },
+                        {
+                            "name": "Expires",
+                            "value": "Mon, 13 Nov 2023 09:08:30 GMT"
+                        },
+                        {
+                            "name": "Connection",
+                            "value": "Keep-Alive"
+                        },
+                        {
+                            "name": "Content-Type",
+                            "value": "image/png"
+                        }
+                    ],
+                    "redirectURL": "",
+                    "headersSize": -1,
+                    "bodySize": 1286,
+                    "content": {
+                        "size": 1286,
+                        "mimeType": "image/png"
+                    }
+                },
+                "cache": {},
+                "timings": {
+                    "blocked": 0,
+                    "dns": -1,
+                    "connect": -1,
+                    "send": 0,
+                    "wait": 28,
+                    "receive": 0,
+                    "ssl": -1
+                },
+                "pageref": "http://www.baidu.com"
+            },
+            {
+                "startedDateTime": "2013-11-15T09:08:30.816Z",
+                "time": 24,
+                "request": {
+                    "method": "GET",
+                    "url": "http://www.baidu.com/img/bdlogo.gif",
+                    "httpVersion": "HTTP/1.1",
+                    "cookies": [],
+                    "headers": [
+                        {
+                            "name": "User-Agent",
+                            "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.2 Safari/534.34"
+                        },
+                        {
+                            "name": "Referer",
+                            "value": "http://www.baidu.com/"
+                        },
+                        {
+                            "name": "Accept",
+                            "value": "*/*"
+                        }
+                    ],
+                    "queryString": [],
+                    "headersSize": -1,
+                    "bodySize": -1
+                },
+                "response": {
+                    "status": 200,
+                    "statusText": "OK",
+                    "httpVersion": "HTTP/1.1",
+                    "cookies": [],
+                    "headers": [
+                        {
+                            "name": "Date",
+                            "value": "Fri, 15 Nov 2013 09:08:30 GMT"
+                        },
+                        {
+                            "name": "Server",
+                            "value": "Apache"
+                        },
+                        {
+                            "name": "Last-Modified",
+                            "value": "Fri, 22 Feb 2013 03:45:02 GMT"
+                        },
+                        {
+                            "name": "ETag",
+                            "value": "\"627-4d648041f6b80\""
+                        },
+                        {
+                            "name": "Accept-Ranges",
+                            "value": "bytes"
+                        },
+                        {
+                            "name": "Content-Length",
+                            "value": "1575"
+                        },
+                        {
+                            "name": "Cache-Control",
+                            "value": "max-age=315360000"
+                        },
+                        {
+                            "name": "Expires",
+                            "value": "Mon, 13 Nov 2023 09:08:30 GMT"
+                        },
+                        {
+                            "name": "Connection",
+                            "value": "Keep-Alive"
+                        },
+                        {
+                            "name": "Content-Type",
+                            "value": "image/gif"
+                        }
+                    ],
+                    "redirectURL": "",
+                    "headersSize": -1,
+                    "bodySize": 1575,
+                    "content": {
+                        "size": 1575,
+                        "mimeType": "image/gif"
+                    }
+                },
+                "cache": {},
+                "timings": {
+                    "blocked": 0,
+                    "dns": -1,
+                    "connect": -1,
+                    "send": 0,
+                    "wait": 24,
+                    "receive": 0,
+                    "ssl": -1
+                },
+                "pageref": "http://www.baidu.com"
+            },
+            {
+                "startedDateTime": "2013-11-15T09:08:30.817Z",
+                "time": 27,
+                "request": {
+                    "method": "GET",
+                    "url": "http://www.baidu.com/cache/global/img/gs.gif",
+                    "httpVersion": "HTTP/1.1",
+                    "cookies": [],
+                    "headers": [
+                        {
+                            "name": "User-Agent",
+                            "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.2 Safari/534.34"
+                        },
+                        {
+                            "name": "Referer",
+                            "value": "http://www.baidu.com/"
+                        },
+                        {
+                            "name": "Accept",
+                            "value": "*/*"
+                        }
+                    ],
+                    "queryString": [],
+                    "headersSize": -1,
+                    "bodySize": -1
+                },
+                "response": {
+                    "status": 200,
+                    "statusText": "OK",
+                    "httpVersion": "HTTP/1.1",
+                    "cookies": [],
+                    "headers": [
+                        {
+                            "name": "Date",
+                            "value": "Fri, 15 Nov 2013 09:08:30 GMT"
+                        },
+                        {
+                            "name": "Server",
+                            "value": "Apache"
+                        },
+                        {
+                            "name": "Last-Modified",
+                            "value": "Thu, 19 Apr 2012 09:51:20 GMT"
+                        },
+                        {
+                            "name": "ETag",
+                            "value": "\"5b-4be051d263600\""
+                        },
+                        {
+                            "name": "Accept-Ranges",
+                            "value": "bytes"
+                        },
+                        {
+                            "name": "Content-Length",
+                            "value": "91"
+                        },
+                        {
+                            "name": "Cache-Control",
+                            "value": "max-age=315360000"
+                        },
+                        {
+                            "name": "Expires",
+                            "value": "Mon, 13 Nov 2023 09:08:30 GMT"
+                        },
+                        {
+                            "name": "Connection",
+                            "value": "Keep-Alive"
+                        },
+                        {
+                            "name": "Content-Type",
+                            "value": "image/gif"
+                        }
+                    ],
+                    "redirectURL": "",
+                    "headersSize": -1,
+                    "bodySize": 91,
+                    "content": {
+                        "size": 91,
+                        "mimeType": "image/gif"
+                    }
+                },
+                "cache": {},
+                "timings": {
+                    "blocked": 0,
+                    "dns": -1,
+                    "connect": -1,
+                    "send": 0,
+                    "wait": 27,
+                    "receive": 0,
+                    "ssl": -1
+                },
+                "pageref": "http://www.baidu.com"
+            },
+            {
+                "startedDateTime": "2013-11-15T09:08:30.838Z",
+                "time": 10,
+                "request": {
+                    "method": "GET",
+                    "url": "http://suggestion.baidu.com/su?wd=&cb=window.bdsug.sugPreRequest&sid=&t=1384506510838",
+                    "httpVersion": "HTTP/1.1",
+                    "cookies": [],
+                    "headers": [
+                        {
+                            "name": "User-Agent",
+                            "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.2 Safari/534.34"
+                        },
+                        {
+                            "name": "Accept",
+                            "value": "*/*"
+                        },
+                        {
+                            "name": "Referer",
+                            "value": "http://www.baidu.com/"
+                        }
+                    ],
+                    "queryString": [],
+                    "headersSize": -1,
+                    "bodySize": -1
+                },
+                "response": {
+                    "status": 200,
+                    "statusText": "OK",
+                    "httpVersion": "HTTP/1.1",
+                    "cookies": [],
+                    "headers": [
+                        {
+                            "name": "Date",
+                            "value": "Fri, 15 Nov 2013 09:08:30 GMT"
+                        },
+                        {
+                            "name": "Server",
+                            "value": "suggestion.baidu.zbb.df"
+                        },
+                        {
+                            "name": "Content-Length",
+                            "value": "48"
+                        },
+                        {
+                            "name": "Content-Type",
+                            "value": "baiduApp/json; v6.27.2.14; charset=gbk"
+                        },
+                        {
+                            "name": "Cache-Control",
+                            "value": "private"
+                        },
+                        {
+                            "name": "Connection",
+                            "value": "Keep-Alive"
+                        }
+                    ],
+                    "redirectURL": "",
+                    "headersSize": -1,
+                    "bodySize": 48,
+                    "content": {
+                        "size": 48,
+                        "mimeType": "baiduApp/json; v6.27.2.14; charset=gbk"
+                    }
+                },
+                "cache": {},
+                "timings": {
+                    "blocked": 0,
+                    "dns": -1,
+                    "connect": -1,
+                    "send": 0,
+                    "wait": 10,
+                    "receive": 0,
+                    "ssl": -1
+                },
+                "pageref": "http://www.baidu.com"
+            },
+            {
+                "startedDateTime": "2013-11-15T09:08:30.843Z",
+                "time": 11,
+                "request": {
+                    "method": "GET",
+                    "url": "http://passport.baidu.com/passApi/js/uni_login_wrapper.js?cdnversion=1384506510842",
+                    "httpVersion": "HTTP/1.1",
+                    "cookies": [],
+                    "headers": [
+                        {
+                            "name": "User-Agent",
+                            "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.2 Safari/534.34"
+                        },
+                        {
+                            "name": "Accept",
+                            "value": "*/*"
+                        },
+                        {
+                            "name": "Referer",
+                            "value": "http://www.baidu.com/"
+                        }
+                    ],
+                    "queryString": [],
+                    "headersSize": -1,
+                    "bodySize": -1
+                },
+                "response": {
+                    "status": 200,
+                    "statusText": "OK",
+                    "httpVersion": "HTTP/1.1",
+                    "cookies": [],
+                    "headers": [
+                        {
+                            "name": "Content-Type",
+                            "value": "text/javascript"
+                        },
+                        {
+                            "name": "ETag",
+                            "value": "\"1161433838\""
+                        },
+                        {
+                            "name": "Accept-Ranges",
+                            "value": "bytes"
+                        },
+                        {
+                            "name": "Last-Modified",
+                            "value": "Fri, 15 Nov 2013 09:04:07 GMT"
+                        },
+                        {
+                            "name": "Expires",
+                            "value": "Fri, 15 Nov 2013 09:18:30 GMT"
+                        },
+                        {
+                            "name": "Cache-Control",
+                            "value": "max-age=600"
+                        },
+                        {
+                            "name": "Vary",
+                            "value": "Accept-Encoding"
+                        },
+                        {
+                            "name": "Content-Encoding",
+                            "value": "gzip"
+                        },
+                        {
+                            "name": "Date",
+                            "value": "Fri, 15 Nov 2013 09:08:30 GMT"
+                        },
+                        {
+                            "name": "Server",
+                            "value": "apache"
+                        }
+                    ],
+                    "redirectURL": "",
+                    "headersSize": -1,
+                    "bodySize": 2707,
+                    "content": {
+                        "size": 2707,
+                        "mimeType": "text/javascript"
+                    }
+                },
+                "cache": {},
+                "timings": {
+                    "blocked": 0,
+                    "dns": -1,
+                    "connect": -1,
+                    "send": 0,
+                    "wait": 11,
+                    "receive": 0,
+                    "ssl": -1
+                },
+                "pageref": "http://www.baidu.com"
+            }
+        ]
+    }
+});

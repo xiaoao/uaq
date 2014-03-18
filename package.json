@@ -1,0 +1,24 @@
+{
+  "name": "uaqeasy",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "3.4.4",
+    "ejs": "*",
+    "yslow": "*",
+    "phantomjs": "*",
+    "jsdom": "*",
+    "kue": "*",
+    "socket.io": "*",
+    "node-uuid": "*",
+    "validator": "*",
+    "webshot": "*",
+    "redis": "*",
+    "reds": "*",
+    "config": "*",
+    "request": "*"
+  }
+}

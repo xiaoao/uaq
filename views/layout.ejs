@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>uaqeasy by xiaoao</title>
+    <link rel='stylesheet' href='/stylesheets/bootstrap2-combined.min.css' />
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script src="/javascripts/jquery.js" type="text/javascript"></script>
+    <script src="/javascripts/bootstrap2.min.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="container-fluid main">
+          <a data-target=".navbar-responsive-collapse" data-toggle="collapse" class="btn btn-navbar"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a> <a href="/" class="brand">UAQ easy</a>
+          <div class="nav-collapse collapse navbar-responsive-collapse">
+            <ul class="nav">
+              <li <% if (navitem == 'index') { %>class="active"<% } %>><a href="/">主页</a></li>
+              <li <% if (navitem == 'jstest') { %>class="active"<% } %>><a href="/jstest">脚本测试</a></li>
+              <li <% if (navitem == 'cssanalyst') { %>class="active"<% } %>><a href="/cssanalyst">CSS分析</a></li>
+              <li class="dropdown">
+                <a data-toggle="dropdown" class="dropdown-toggle active" href="#">工具<strong class="caret"></strong></a>
+                <ul class="dropdown-menu">
+                  <li><a href="/tools/mark">网页的基本信息</a></li>
+                  <li><a href="/tools/snapshot">生成网页缩略图</a></li>
+                  <li><a href="/tools/har">生成网页HAR</a></li>
+                  <li><a href="/tools/loadspeed">网页打开时间</a></li>
+                  <li><a href="/tools/jsanalyst">脚本分析</a></li>
+                  <li><a href="/tools/cssanalyst">CSS分析</a></li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="nav pull-right">
+              <li <% if (navitem == 'apis') { %>class="active"<% } %>><a href='/apis'>API</a></li>
+              <li <% if (navitem == 'documents') { %>class="active"<% } %>><a href='/documents'>文档</a></li>
+              <li><a href='/bbs'>论坛</a></li>
+              <li <% if (navitem == 'about') { %>class="active"<% } %>><a href='/about'>关于</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--nav end-->
+    <div class="main">
+      <%- body %>
+      <!--image end-->
+      <div class="footer">
+        <strong>UAQ  easy</strong> making UAQ easily, powered by <a href="http://github.com/xiaoao"><strong>xiaoao</strong></a>
+      </div>
+    </div>
+  </body>
+</html>

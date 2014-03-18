@@ -1,0 +1,105 @@
+<% include header %>
+<div class="container-fluid">
+  <div class="row-fluid">
+    <div class="span2">
+      <% include side_tools %>
+    </div>
+    <div class="span10">
+      <ul class="breadcrumb">
+        <li>
+          <a href="/">Home</a> <span class="divider">/</span>
+        </li>
+        <li>
+          <a href="/tools">Tools</a> <span class="divider">/</span>
+        </li>
+        <li class="active">
+          网页截图
+        </li>
+      </ul>
+      <!--documents-->
+      <section id="home" class="well">
+        <h2>Webpage's capture or snapshot</h2>
+        <hr>
+        <h3>What ?</h3>
+        <p>Webpage's capture or snapshot</p>
+        <p>The project, created by <a href="http://twitter.com/xiaoao">xiaoao</a>, is open source and will move to github soon!</p>
+        <h3>Why need it?</h3>
+        <p>You can get webpage's snapshot into a picture or pdf, so it is very useful.</p>
+        <div class="alert alert-info">
+          <strong>Feature！</strong>
+          It supports a lot of great features, may you a good journey, have fun!
+        </div>
+      </section>
+      <!--overview end-->
+      <hr class="hrcrossline">
+      <section id="sitemark">
+        <h2>Sample</h2>
+        <form class="form-horizontal" id="sampleform" method="post" action="/services/capture">
+          <div class="control-group">
+            <label class="control-label">URL:</label>
+            <div class="controls">
+              <input type="text" name="url" id="url" class="input-xlarge" value="http://www.baidu.com/">
+              <span class="help-inline">the site's url</span>
+            </div>
+          </div>
+          <div class="control-group">
+            <label class="control-label">Selector:</label>
+            <div class="controls">
+              <input type="text" name="selector" id="selector" class="input-xlarge" value="#m">
+              <span class="help-inline">the element's class or id</span>
+            </div>
+          </div>
+          <div class="control-group">
+            <label class="control-label">Scripts:</label>
+            <div class="controls">
+              <input type="text" name="script" id="script" class="input-xlarge" value="document.querySelector('#nv').style.visibility = 'hidden';">
+              <span class="help-inline">the scripts you want to inject</span>
+            </div>
+          </div>
+          <div class="control-group">
+            <div class="controls">
+              <button type="submit" class="btn btn-primary">Ok, let's try</button>
+            </div>
+          </div>
+        </form>
+      </section>
+      <!--sitemark end-->
+      <hr>
+      <section id="pagesnapshot">
+        <h2>Create Webpage Snapshot</h2>
+      </section>
+      <!--pagesnapshot end-->
+      <hr>
+      <section id="help">
+        <h2>Help</h2>
+        <p>You can send a mail to <strong><code>junhuifoo at gmail dot com</code></strong></p>
+        <div class="alert alert-info">
+          <strong>RealTime！</strong>
+          you also can contact to me by Tencent QQ<code>654067187</code>,or following me on <a href="http://twitter.com/xiaoao">twitter</a>,or LinkedIn, or facebook, <a href="http://github.com/xiaoao">github</a>.
+        </div>
+      </section>
+      <!--license end-->
+      <hr>
+      <section id="license">
+        <h2>License</h2>
+      </section>
+      <!--license end-->
+
+    </div>
+  </div>
+</div>
+<% include footer %>
+<script>
+
+// $("#sampleform").submit(function(event){
+//   var url = $("#url").val();
+//   var selector = $("#selector").val();
+//   var script = $("#script").val();
+
+//   var data = {'url': url, 'selector': selector, 'script': script};
+//   $.post('/services/capture', data, function(data){
+//     console.log(data);
+//   });
+// });
+$('#docmentslist').affix();
+</script>
