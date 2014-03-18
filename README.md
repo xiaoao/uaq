@@ -13,10 +13,25 @@ then start your redis-server
 
 $ npm install 
 
+![sample](https://raw.github.com/xiaoao/uaq/master/public/examples/2.png)
 
-![sample](https://github.com/xiaoao/uaq/blob/master/public/examples/1.png)
+![sample](https://raw.github.com/xiaoao/uaq/master/public/examples/1.png)
 
+![sample](https://raw.github.com/xiaoao/uaq/master/public/examples/3.png)
 
+API sample
+
+![sample](https://raw.github.com/xiaoao/uaq/master/public/examples/1.png)
+
+![sample](https://raw.github.com/xiaoao/uaq/master/public/examples/1.png)
+
+Exec javascript
+
+document.querySelector('#nv').style.visibility = 'hidden';
+
+and the result is :
+
+![sample](https://raw.github.com/xiaoao/uaq/master/public/images/ec7e0022-d02b-43c6-9437-b4fa94fc8e35.png)
 
 ## License
 
