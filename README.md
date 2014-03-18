@@ -5,6 +5,19 @@ Website Performance Analyst and Monitor framework, making UAQ easily
 Based on [phantomjs](https://github.com/ariya/phantomjs) by [Ariya Hidayat](http://github.com/ariya), [kue](https://github.com/LearnBoost/kue), [HAR Viewer](http://code.google.com/p/harviewer/).
 
 
+## Features
+
+YSlow integrated
+
+HARviewer integrated
+
+Snapshot integrated, and supporting get the result snapshot after injecting your javascript 
+
+Redis as the quene
+
+
+
+
 ## Install phantomjs [like here](http://phantomjs.org/download.html)
 
 then start your redis-server
@@ -21,9 +34,8 @@ $ npm install
 
 API sample
 
-![sample](https://raw.github.com/xiaoao/uaq/master/public/examples/1.png)
+![sample](https://raw.github.com/xiaoao/uaq/master/public/examples/4.png)
 
-![sample](https://raw.github.com/xiaoao/uaq/master/public/examples/1.png)
 
 Exec javascript
 
