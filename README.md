@@ -14,7 +14,7 @@ then start your redis-server
 $ npm install 
 
 
-
+![sample](https://github.com/xiaoao/uaq/blob/master/public/examples/1.png)
 
 
 
