@@ -9,7 +9,7 @@ Based on [phantomjs](https://github.com/ariya/phantomjs) by [Ariya Hidayat](http
 
 YSlow integrated
 
-HARviewer integrated
+HAR Generation and  viewer integrated
 
 Snapshot integrated, and supporting get the result snapshot after injecting your javascript 
 
